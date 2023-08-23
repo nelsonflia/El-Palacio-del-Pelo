@@ -428,6 +428,149 @@ button.white{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ----------------------- Shop Page ------------------ */
 
 #page-header{
@@ -537,7 +680,7 @@ button.white{
     right: 10px;
 }
 
-/* Sigle product Page */
+/*------------- Sigle product Page ---------------*/
 
 #prodetails{
     display: flex;
@@ -586,7 +729,16 @@ button.white{
     margin-right: 10px;
 }
 
+#prodetails .single-pro-details input:focus{
+    outline: none;
+  
+}
+
 #prodetails .single-pro-details button{
     background: #088178;
     color: #fff;
+}
+
+#prodetails .single-pro-details span{
+    line-height: 25px;
 }

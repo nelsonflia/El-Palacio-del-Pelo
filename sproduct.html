@@ -7,14 +7,14 @@
     <meta name="viewport" content="wigth=device-width, initial-scale=1.0">
     <title>El Palacio del Pelo</title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="style.css">
     
 </head>
 
 <body>
     
     <section id="header">
-        <a href="#"><img src="img/Logo.jpeg" class="logo" alt=""></a>
+        <a href="#"><img src="img/Logo.jpg" class="logo" alt=""></a>
     
         <div>
             <ul id="navbar">
@@ -45,7 +45,7 @@
                     <img src="img/placeholder.png" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
-                    <img src="img/placeholder.png" width="100%" class="small-img" alt="">
+                    <img src="img/products/f1.jpg" width="100%" class="small-img" alt="">
                 </div>
                 <div class="small-img-col">
                     <img src="img/placeholder.png" width="100%" class="small-img" alt="">
@@ -79,6 +79,95 @@
         </div>
     </section>
 
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Coleccion de poductos para Pelucas</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Ebin</span>
+                    <h5>Producto de Ebin</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Ebin</span>
+                    <h5>Producto de Ebin</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Ebin</span>
+                    <h5>Producto de Ebin</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/f1.jpg" alt="">
+                <div class="des">
+                    <span>Ebin</span>
+                    <h5>Producto de Ebin</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$999</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+         
+        </div>
+    </section>
 
-    <script src="scripts/script.js"></script>
+
+    <script>
+        var MainImg = document.getElementById("MainImg");
+        var smallimg = document.getElementsByClassName("small-img");
+
+        smallimg[0].onclick =function(){
+            MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick =function(){
+            MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick =function(){
+            MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick =function(){
+            MainImg.src = smallimg[3].src;
+        }
+    </script>
+    <script src="script.js"></script>
 </body>
