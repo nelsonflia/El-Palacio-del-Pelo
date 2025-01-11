@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><title>El Palacio del Pelo</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/Logo.jpg" class="logo" alt=""></a>
+    
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Inicio</a></li>
+                <li><a href="shop.html">Tienda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contactar</a></li>
+                <!-- *Para buscar iconos usar este link* fontawesome.com/v5.15/icons?d=gallery&p=2-->
+                <div id="lg-search" class="searchBar">
+                    <input class="input" type="type" placeholder="Search" />
+                    <button class="btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            
+        </div>
+        <div id="mobile">
+            <div class="searchBar">
+                <input class="input" type="type" placeholder="Search" />
+                <button class="btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <div class="searchBar2">
+                <input type="checkbox" id="trigger" class="search__checkbox"/>
+                <label class="search__label-init" for="trigger"></label>
+                <label class="search__label-active" for="trigger"></label>
+                <div class="search__border"></div>
+                <input type="text" class="search__input"/>
+                <div class="search__close"></div>
+            </div>
+            <li><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+            <i id="bar" class="fas fa-outdent"></i>
+        </ul>
+    </div>
+    
+    </section>
+    <div class="log">
+        <div class="wrapper">
+            <form action="">
+                <h1>Iniciar Sesión</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="Usuario o Correo Electronico" required>
+                    <i class='bx bxs-user'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Contraseña" required>
+                    <i class='bx bxs-lock-alt'></i>
+                </div>
+
+                <div class="remember-forget">
+                    <label><input type="checkbox">Recuerdame</label>
+                    <a href="#">¿Olvidó su contraseña?</a>
+                </div>
+
+                <button type="submit" class="btn-login">Iniciar Sesión</button>
+
+                <div class="register-link">
+                    <p>No tiene una cuenta? <a href="#">Registrate</a></p>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</body>
+</html>
